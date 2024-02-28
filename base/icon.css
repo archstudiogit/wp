@@ -1,8 +1,8 @@
 
 @font-face {
   font-family: 'base-icon';
-  src: url("../fonts/base-icon.eot?o9tlen");
-  src: url("../fonts/base-icon.eot?o9tlen#iefix") format("embedded-opentype"), url("../fonts/base-icon.ttf?o9tlen") format("truetype"), url("../fonts/base-icon.woff?o9tlen") format("woff"), url("../fonts/base-icon.svg?o9tlen#base-icon") format("svg");
+  src: url("https://cdn.jsdelivr.net/gh/archstudiogit/wp@main/base/base-icon.eot?o9tlen");
+  src: url("https://cdn.jsdelivr.net/gh/archstudiogit/wp@main/base/base-icon.eot?o9tlen#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/archstudiogit/wp@main/base/base-icon.ttf?o9tlen") format("truetype"), url("https://cdn.jsdelivr.net/gh/archstudiogit/wp@main/base/base-icon.ttf?o9tlen") format("woff"), url("https://cdn.jsdelivr.net/gh/archstudiogit/wp@main/base/base-icon.svg?o9tlen#base-icon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
