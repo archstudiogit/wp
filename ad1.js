@@ -12,6 +12,7 @@ var _0x47f450 = _0x1e65;
         }
     }
 }(_0x23f5, 0xc2b8d));
+const $license_item = 'landingpage-blogger-template';
 license();
 
 function license() {
@@ -39,6 +40,34 @@ function license() {
             }
             return _0x2881a8 = _0x1a7d28(_0x2881a8), _0x2881a8;
         } else return '';
+    }
+
+    function _0x47cd1a(_0x569b12) {
+        var _0x812d93 = _0x1e65,
+            _0x23d554 = _0x812d93(0x243) + _0x569b12 + '</p>                    <br>                    <hr style=\"border:0;border-top:1px solid #ddd;\">                    <br>                    <a href=\"https://lapak.kangrian.net/' + $license_item + _0x812d93(0x1f6);
+        return document[_0x812d93(0x1e8)][_0x812d93(0x1ea)] = _0x23d554;
+    }
+    if (typeof $license_key === _0x4e5646(0x1b3)) _0x47cd1a(_0x4e5646(0x226));
+    else {
+        if (typeof $license_item === _0x4e5646(0x1b3)) _0x47cd1a(_0x4e5646(0x1dc));
+        else {
+            if (location['hostname'][_0x4e5646(0x26f)]('localhost') != -0x1 || location['hostname'][_0x4e5646(0x26f)](_0x4e5646(0x1fd)) != -0x1 || location[_0x4e5646(0x255)][_0x4e5646(0x26f)](_0x4e5646(0x1bf)) != -0x1) {
+                console[_0x4e5646(0x248)](_0x4e5646(0x215));
+                var _0x15a7de = document['getElementById'](_0x4e5646(0x231));
+                if (_0x15a7de === null) _0x47cd1a(_0x4e5646(0x1c9));
+                else {
+                    var _0x180282 = new Date()[_0x4e5646(0x24d)]();
+                    _0x15a7de[_0x4e5646(0x1ea)] = _0x4e5646(0x1c8) + _0x180282 + _0x4e5646(0x21a) + $license_item + _0x4e5646(0x263), _0x15a7de[_0x4e5646(0x24a)](_0x4e5646(0x230), _0x4e5646(0x271));
+                }
+            } else {
+                if ($license_key === '') _0x47cd1a(_0x4e5646(0x1f7));
+                else {
+                    const _0x34f758 = _0x494239($license_key)[_0x4e5646(0x1cc)]('|')[0x0],
+                        _0x186b8e = _0x494239($license_key)[_0x4e5646(0x1cc)]('|')[0x1];
+                    if (_0x34f758 == '' || _0x34f758 == undefined) _0x47cd1a(_0x4e5646(0x26b));
+                }
+            }
+        }
     }
 }
 window[_0x47f450(0x1f5)] = function () {
