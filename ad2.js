@@ -65,6 +65,22 @@ function license() {
                     const _0x34f758 = _0x494239($license_key)[_0x4e5646(0x1cc)]('|')[0x0],
                         _0x186b8e = _0x494239($license_key)[_0x4e5646(0x1cc)]('|')[0x1];
                     if (_0x34f758 == '' || _0x34f758 == undefined) _0x47cd1a(_0x4e5646(0x26b));
+                    else {
+                        if (location[_0x4e5646(0x255)]['indexOf'](_0x34f758) == -0x1) _0x47cd1a('<b>Kode Lisensi</b> hanya bisa digunakan pada website dengan domain : <b>' + _0x34f758 + _0x4e5646(0x209));
+                        else {
+                            if (_0x186b8e != $license_item) {
+                                function _0x42f273(_0x2519cb) {
+                                    var _0x510fc7 = _0x4e5646;
+                                    _0x2519cb = _0x2519cb['split'](' ');
+                                    for (var _0xe736 = 0x0; _0xe736 < _0x2519cb[_0x510fc7(0x275)]; _0xe736++) {
+                                        _0x2519cb[_0xe736] = _0x2519cb[_0xe736][_0x510fc7(0x25a)](0x0)[_0x510fc7(0x235)]() + _0x2519cb[_0xe736][_0x510fc7(0x20a)](0x1);
+                                    }
+                                    return _0x2519cb = _0x2519cb['join'](' '), _0x2519cb;
+                                }
+                                _0x47cd1a(_0x4e5646(0x1d4) + _0x42f273($license_item[_0x4e5646(0x221)]('-', ' ')) + _0x4e5646(0x21b));
+                            } else console[_0x4e5646(0x248)](_0x4e5646(0x1d2));
+                        }
+                    }
                 }
             }
         }
